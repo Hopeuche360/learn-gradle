@@ -12,6 +12,8 @@ plugins {
 }
 
 task mytask {
+    //use 'gradle -q myTask' to run this task
+    description = 'This is my custom task'
     doLast {
         println 'Welcome to my gradle project'
     }
